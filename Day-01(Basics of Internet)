@@ -1,1 +1,192 @@
+# 🚀 Day 01 - Basics of Internet & Web
 
+📅 Date: 14 April 2026
+🎯 Goal: Understand how the internet and web work
+
+---
+
+## 🌐 Topics Covered
+
+* How the Web Works
+* HTTP & HTTPS
+* Request-Response Cycle
+* Headers & Status Codes
+* TCP (3-Way Handshake)
+* UDP Protocol
+* DNS Resolution
+* OSI Model (7 Layers)
+* HTTP vs HTTP/2
+
+---
+
+## 🔹 1. How Web Works
+
+When a user enters a URL in the browser:
+
+1. Browser sends request to server
+2. Server processes request
+3. Server sends response (HTML, CSS, JS)
+4. Browser renders the webpage
+
+👉 This follows **Client-Server Architecture**
+
+---
+
+## 🔹 2. HTTP (HyperText Transfer Protocol)
+
+* Protocol used to transfer data over web
+* Works on **request-response model**
+* Stateless protocol (no memory of previous requests)
+
+### 📌 Example:
+
+Browser → GET request → Server → 200 OK response
+
+---
+
+## 🔹 3. HTTP Headers
+
+Headers carry extra information:
+
+* Client info (device, browser)
+* Date & time
+* Cookies
+* Content type
+
+---
+
+## 🔹 4. HTTP Methods & Status Codes
+
+### Methods:
+
+* GET → Fetch data
+* POST → Send data
+* PUT → Update
+* DELETE → Remove
+
+### Status Codes:
+
+* 200 → Success ✅
+* 404 → Not Found ❌
+* 500 → Server Error ⚠️
+
+---
+
+## 🔹 5. Stateless Nature of HTTP
+
+* Every request is independent
+* Server does NOT remember previous request
+
+👉 Solution: **Cookies & Sessions**
+
+---
+
+## 🔹 6. Cookies & Sessions
+
+* Cookie → Stored in browser
+* Session → Stored in server
+
+👉 Used for:
+
+* Login authentication
+* User tracking
+
+---
+
+## 🔹 7. TCP (Transmission Control Protocol)
+
+* Reliable protocol
+* Uses **3-way handshake**
+
+### 🤝 TCP Handshake:
+
+1. SYN
+2. SYN-ACK
+3. ACK
+
+✔ Ensures connection is established
+
+---
+
+## 🔹 8. UDP (User Datagram Protocol)
+
+* Fast but unreliable
+* No handshake
+* No guarantee of delivery
+
+### 📌 Use Cases:
+
+* Video calls
+* Live streaming
+* Gaming
+
+---
+
+## 🔹 9. DNS Resolution
+
+DNS converts domain → IP address
+
+### Steps:
+
+1. Browser → DNS Resolver
+2. Root Server
+3. TLD Server (.com, .org)
+4. Authoritative Server
+5. Returns IP
+
+---
+
+## 🔹 10. OSI Model (7 Layers)
+
+1. Physical
+2. Data Link
+3. Network
+4. Transport
+5. Session
+6. Presentation
+7. Application
+
+👉 Helps in understanding network communication
+
+---
+
+## 🔹 11. HTTP vs HTTP/2
+
+| Feature      | HTTP/1.1 | HTTP/2  |
+| ------------ | -------- | ------- |
+| Speed        | Slow     | Fast 🚀 |
+| Connection   | Multiple | Single  |
+| Multiplexing | ❌        | ✅       |
+| Compression  | ❌        | ✅       |
+
+---
+
+## 🔐 12. HTTPS
+
+* Secure version of HTTP
+* Uses **TLS encryption**
+* Protects data from attackers
+
+---
+
+## 🧠 Key Learnings
+
+* Internet works on layered architecture
+* HTTP is stateless
+* TCP ensures reliability
+* UDP provides speed
+* DNS is essential for browsing
+
+---
+
+## 📸 Notes
+
+I have also attached my handwritten notes for better understanding.
+
+---
+
+## 🔥 Progress Tracker
+
+✅ Day 01 Completed
+
+---
