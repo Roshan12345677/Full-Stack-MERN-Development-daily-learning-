@@ -1,2 +1,2 @@
 # Full-Stack-MERN-Development-daily-learning-
-🚀 Daily MERN Stack Learning Journey | HTML, CSS, JavaScript, React, Node.js, MongoDB | Building consistency with daily commits and projects
+Consistent daily practice repository documenting my journey to becoming a Full Stack Developer using the MERN stack. Includes hands-on coding, mini-projects, and concept implementations.
