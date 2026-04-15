@@ -1,0 +1,227 @@
+# 🚀 Day 02 - Version Control System
+
+📅 Date: 15 April 2026
+🎯 Goal: Understand Version Control, Git, GitHub & Branching
+
+---
+
+## 🌐 Topics Covered
+
+* Version Control System (VCS)
+* Types of VCS (CVCS vs DVCS)
+* Git Basics & Workflow
+* Git Commands
+* Git Branching & Merging
+* GitHub & Remote Repositories
+* Open Source Contribution Flow
+
+---
+
+## 🔹 1. Version Control System (VCS)
+
+A **Version Control System** helps track and manage changes in source code over time.
+
+### 📌 Why VCS?
+
+* Track changes 📜
+* Collaboration 🤝
+* Branching & merging 🌿
+* Version history 🕒
+* Conflict resolution ⚔️
+* Backup & recovery 💾
+
+---
+
+## 🔹 2. Types of VCS
+
+### 🔸 Centralized VCS (CVCS)
+
+* Example: SVN
+* Single central server
+
+### 🔸 Distributed VCS (DVCS)
+
+* Example: Git
+* Each developer has full copy
+
+---
+
+## 🔹 3. What is Git?
+
+Git is a **distributed version control system** used to:
+
+* Track code changes
+* Collaborate with others
+* Maintain project history
+
+---
+
+## 🔹 4. Git Workflow
+
+```text
+Working Directory → Staging Area → Local Repository → Remote Repository
+```
+
+### Flow:
+
+* git add → staging
+* git commit → local repo
+* git push → remote repo
+
+---
+
+## 🔹 5. Important Git Commands
+
+### 🔧 Setup
+
+```bash
+git --version
+git config --global user.name "Your Name"
+git config --global user.email "your@email.com"
+```
+
+---
+
+### 📁 Basic Commands
+
+```bash
+git init
+git add <file>
+git add .
+git status
+git commit -m "message"
+```
+
+---
+
+### 📊 Logs & Changes
+
+```bash
+git log
+git log --oneline
+git diff
+```
+
+---
+
+### 🔄 Reset & Stash
+
+```bash
+git reset <commit-id>
+git reset --hard <commit-id>
+git stash
+git stash pop
+```
+
+---
+
+### 🌐 Remote Commands
+
+```bash
+git clone <repo-url>
+git remote add origin <url>
+git push origin main
+git pull origin main
+```
+
+---
+
+## 🔹 6. Git Internals
+
+* `.git` folder → stores all history
+* Commits → snapshot of project
+* Staging area → temporary storage
+
+---
+
+## 🔹 7. Git Branching
+
+Branching allows working on features independently.
+
+### 📌 Commands:
+
+```bash
+git branch <branch-name>
+git checkout <branch-name>
+git checkout -b <branch-name>
+```
+
+---
+
+## 🔹 8. Merging & Strategies
+
+### 🔀 Merge
+
+```bash
+git checkout main
+git merge <branch-name>
+```
+
+---
+
+### 🔹 Squash Merge
+
+* Combines multiple commits into one
+* Cleaner history
+
+```bash
+git merge --squash <branch-name>
+```
+
+---
+
+### 🔹 Rebase
+
+* Keeps history linear
+* Re-applies commits on top
+
+```bash
+git rebase main
+```
+
+---
+
+## 🔹 9. Revert vs Reset
+
+* `git revert` → creates new commit (safe)
+* `git reset` → moves HEAD (dangerous)
+
+---
+
+## 🔹 10. GitHub
+
+GitHub is a **cloud platform to store Git repositories**
+
+### 📌 Benefits:
+
+* Backup code
+* Collaboration
+* Project sharing
+
+---
+
+## 🔹 11. Open Source Contribution Flow
+
+1. Fork repository
+2. Clone repo
+3. Add upstream
+4. Make changes
+5. Push changes
+6. Create Pull Request
+
+---
+
+## 🧠 Key Learnings
+
+* Git tracks changes efficiently
+* Branching enables parallel development
+* GitHub helps collaboration
+* Open source workflow is essential
+
+---
+
+## 🔥 Progress Tracker
+
+✅ Day 01 Completed
+✅ Day 02 Completed
+⏳ Day 03 Coming Soon...
