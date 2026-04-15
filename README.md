@@ -9,7 +9,7 @@ Consistent daily practice repository documenting my journey to becoming a Full S
 ## 📌 Progress
 
 * Day 01 → Basics of Internet.
-* Day 02 → (update daily...)
+* Day 02 → Version control system(Git & GitHub)
 
 ## 🛠️ Tech Stack
 
