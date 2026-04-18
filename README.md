@@ -11,6 +11,7 @@ Consistent daily practice repository documenting my journey to becoming a Full S
 * Day 01 → Basics of Internet.
 * Day 02 → Version control system(Git & GitHub)
 * Day 03 → PRD + Complete HTML
+* Day 04 → CSS Basics + Flexbox
 
 ## 🛠️ Tech Stack
 
