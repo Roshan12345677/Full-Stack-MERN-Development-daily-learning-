@@ -1,6 +1,6 @@
 # 🎨 Day 04 - CSS Basics & Flexbox
 
-📅 Date: 17 April 2026
+📅 Date: 18 April 2026
 🎯 Goal: Learn CSS fundamentals and layout using Flexbox
 
 ---
