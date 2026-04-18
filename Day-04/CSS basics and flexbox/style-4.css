@@ -1,0 +1,9 @@
+button{
+    color: red;
+    border: 2px solid green;
+    display: block;
+}
+
+p{
+    display: inline;
+}
